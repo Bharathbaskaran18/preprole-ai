@@ -9,8 +9,13 @@
       <stop offset="100%" stop-color="rgba(255,255,255,0.00)"/>
     </linearGradient>
   </defs>
+
+  <!-- Rounded square background -->
   <rect width="64" height="64" rx="14" fill="url(#bg)"/>
+  <!-- Subtle top-half shine -->
   <rect width="64" height="34" rx="14" fill="url(#shine)"/>
+
+  <!-- PR lettering — bold, tight tracking, vertically centred -->
   <text
     x="32" y="43"
     text-anchor="middle"
